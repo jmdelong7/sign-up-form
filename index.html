@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Intermediate HTML & CSS Sign-up Form">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>The Odin Project Sign-up Form</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-container">
+      <img src="photo.avif" alt="plant background">
+      <div class="odin-container">
+        <img src="odin-lined.png" alt="odin logo">
+      </div>
+    </div>
+    <div class="right-container">
+      <section class="header-section">
+        <p class="hook">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</p>
+        <p class="cta">You <em>know</em> you want to.</p>
+      </section>
+      <section class="form-section">
+        <p>Let's do this!</p>
+        <form method="get">
+          <label for="first-name" placeholder="Thor">First Name</label>
+          <input type="text" id="first-name">
+          <label for="last-name" placeholder="Odinson">Last Name</label>
+          <input type="text" id="last-name">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone">
+          <label for="pass1">Password</label>
+          <input type="text" id="pass1" pattern="">
+          <label for="pass2">Confirm Password</label>
+          <input type="text" id="pass2" pattern="">
+        </form>
+      </section>
+      <section class="submit-section">
+        <button class="create-account" type="submit">Create Account</button>
+        <p class="login">Already have an account? Log in</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
