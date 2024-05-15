@@ -56,16 +56,39 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-container {
   display: flex;
+  max-width: 1200px;
+  border: 5px solid black;
 }
 
-.left-container, .right-container {
-  flex: 1;
+.right-container {
+  max-width: 750px;
+}
+
+.left-container {
+  position: relative;
 }
 
 .odin-container {
-  background-color: black;
+  font-family: 'Norse Bold';
+  color: white;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.76);
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
 }
+
+.odin-container img {
+  width: 100px;
+}
+
