@@ -52,6 +52,18 @@ input {
   src: url('Norse-Bold.otf') format('opentype');
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   font-weight: bold;
@@ -60,15 +72,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(245, 245, 245);
 }
 
 .main-container {
   display: flex;
   max-width: 1200px;
+  padding: 1rem 0;
 }
 
 .right-container {
   max-width: 750px;
+}
+
+.right-container section {
+  padding-left: 2.5rem;
 }
 
 .left-container {
@@ -85,5 +103,45 @@ body {
 
 .odin-container img {
   width: 100px;
+}
+
+.header-section {
+  padding-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+.cta {
+  padding-top: 2.5rem;
+}
+
+.form-section {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 1px 3px rgba(180, 180, 180, 0.103);
+  padding: 1.5rem 0;
+}
+
+.form-section p {
+  padding: 1.5rem 0 3rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid salmon;
+}
+
+.form-name,
+.form-info,
+.form-password {
+  display: flex;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-section {
+  padding-top: 5rem;
 }
 
