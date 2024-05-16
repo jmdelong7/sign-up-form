@@ -117,7 +117,7 @@ body {
 .form-section {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 3px 1px 3px rgba(180, 180, 180, 0.103);
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 3rem 0;
 }
 
 .form-section p {
@@ -127,7 +127,12 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  border: 2px solid salmon;
+}
+
+.form-name .form-block:nth-of-type(2),
+.form-info .form-block:nth-of-type(2),
+.form-password .form-block:nth-of-type(2) {
+  padding-left: 5rem;
 }
 
 .form-name,
