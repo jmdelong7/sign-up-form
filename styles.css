@@ -120,11 +120,12 @@ body {
 .form-section {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 3px 1px 3px rgba(180, 180, 180, 0.103);
-  padding: 1.5rem 0 3rem 0;
+  padding: 1rem 0 3rem 0;
+  color: rgb(34, 34, 34)
 }
 
 .form-section p {
-  padding: 1.5rem 0 3rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
 form {
@@ -150,7 +151,10 @@ form {
 }
 
 label {
-  padding: 1rem 0;
+  padding: 1.75rem 0 0.25rem 0;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
 input {
@@ -161,10 +165,14 @@ input {
 }
 
 input:focus {
-  border: 1px solid rgba(21, 21, 221, 0.774)
+  border: 1px solid rgba(21, 21, 221, 0.774);
+  box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.178);
 }
 
 .submit-section {
-  padding-top: 5rem;
+  padding-top: 2.5rem;
 }
 
+.submit-section > * {
+  margin: 1rem 0;
+}
