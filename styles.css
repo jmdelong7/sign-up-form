@@ -187,14 +187,15 @@ input:focus {
   box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.274);
 }
 
+input:invalid {
+  border: 1px solid rgba(221, 21, 21, 0.774);
+  box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.274);
+}
+
 .submit-section {
   padding-top: 1.5rem;
   display: flex;
   flex-direction: column;
-}
-
-.submit-section > * {
-  margin: 1rem 0;
 }
 
 .create-account {
@@ -206,4 +207,33 @@ input:focus {
   font-weight: 600;
   border-radius: 5px;
   box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.178);
+  text-align: center;
+
 }
+
+.submit-section > * {
+  margin: 1rem 0;
+}
+
+.submit-section p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.login-text {
+  color: #596D48;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+
+}
+
+.login-footer {
+  display: flex;
+}
+
+.login-footer a {
+  padding-left: 3.5px;
+}
+
+

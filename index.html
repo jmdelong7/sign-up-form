@@ -46,20 +46,23 @@
             </div>
           </div>
           <div class="form-password">
-            <div class="form-block">
+            <div class="form-block password">
               <label for="pass1">Password</label>
-              <input type="text" id="pass1" pattern="">
+              <input required type="password" id="pass1" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
             </div>
-            <div class="form-block">
+            <div class="form-block password">
               <label for="pass2">Confirm Password</label>
-              <input type="text" id="pass2" pattern="">
+              <input required type="password" id="pass2" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
             </div>
           </div>
         </form>
       </section>
       <section class="submit-section">
         <button class="create-account" type="submit">Create Account</button>
-        <p class="login">Already have an account? Log in</p>
+        <div class="login-footer">
+          <p class="login">Already have an account?</p>
+          <a class="login-text" href=""> Log in</a>
+        </div>
       </section>
     </div>
   </div>
