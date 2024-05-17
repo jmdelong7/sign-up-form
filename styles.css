@@ -97,23 +97,31 @@ body {
   background-size: cover;
   width: 450px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .odin-container {
   font-family: 'Norse Bold';
   color: white;
-  background-color: rgba(0, 0, 0, 0.76);
-  width: inherit;
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: 10rem;
+  padding: 2rem 0;
+}
+
+.spacer {
+  height: 400px;
+  width: 100px;
 }
 
 .odin-container img {
-  width: 100px;
+  width: 75px;
 }
 
 .header-section {
@@ -194,6 +202,7 @@ input:invalid {
 
 .submit-section {
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
 }
