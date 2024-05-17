@@ -107,10 +107,14 @@ body {
 }
 
 .header-section {
-  padding-top: 12.5rem;
+  padding-top: 10rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
+}
+
+.header-section p {
+  width: 600px;
 }
 
 .cta {
@@ -151,26 +155,32 @@ form {
 }
 
 label {
-  padding: 1.75rem 0 0.25rem 0;
-  font-weight: 400;
-  font-size: 1.25rem;
+  padding: 1.75rem 0 0 0;
+  font-weight: 600;
+  font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 input {
   width: 250px;
-  border: 1px solid rgba(143, 143, 143, 0.281);
+  border: 1px solid rgba(158, 158, 158, 0.281);
   border-radius: 3px;
   outline: none;
+  background-color: rgb(252, 252, 252);
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
 
 input:focus {
   border: 1px solid rgba(21, 21, 221, 0.774);
-  box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.178);
+  box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.274);
 }
 
 .submit-section {
   padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .submit-section > * {
@@ -181,8 +191,8 @@ input:focus {
   color: white;
   background-color: #596D48;
   border: none;
-  padding: 1.25rem 2rem;
-  font-size: 1.25rem;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   border-radius: 5px;
   box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.178);
