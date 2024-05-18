@@ -105,7 +105,7 @@ body {
 .odin-container {
   font-family: 'Norse Bold';
   color: white;
-  background-color: rgba(0, 0, 0, 0.521);
+  background-color: rgba(0, 0, 5, 0.521);
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -200,6 +200,15 @@ input:invalid {
   box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.274);
 }
 
+.pass-match {
+  padding: 1.75rem 0 0 0;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: rgba(221, 21, 21, 0.774);
+}
+
 .submit-section {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -217,7 +226,10 @@ input:invalid {
   border-radius: 5px;
   box-shadow: 0 2px 5px 2px rgba(104, 104, 104, 0.178);
   text-align: center;
+}
 
+.create-account:hover {
+  cursor: pointer;
 }
 
 .submit-section > * {
